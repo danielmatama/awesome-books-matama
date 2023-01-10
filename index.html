@@ -8,13 +8,12 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="full">
     <h1>Awesome books</h1>
     <div id="list" class="list"></div>
-    <div class="add-new-book">
-      <div class="black-line"></div>
-      <h2>Add new book</h2>
-    </div>
+    <hr>
     <div id="addNew">
+      <h3>Add a New book</h3>
       <form name="book" id="form">
         <input
           type="text"
@@ -30,11 +29,10 @@
           placeholder="Author"
           required
         /><br /><br />
-        <div class="addButton">
-          <button type="submit" id="addButton" class="btn">Add</button>
-        </div>
+        <button type="submit" id="addButton" class="btn">Add</button>
       </form>
     </div>
+      </div>
 
     <script src="scripts.js"></script>
   </body>
