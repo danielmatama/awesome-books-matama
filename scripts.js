@@ -50,8 +50,6 @@ function displayBook() {
       displayBook();
     };
     container02.appendChild(removeButton);
-    const hline = document.createElement('hr');
-    container02.appendChild(hline);
   }
 }
 
