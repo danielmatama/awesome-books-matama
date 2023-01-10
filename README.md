@@ -19,11 +19,15 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
+OPTIONAL SECTIONS:
+- FAQ
+
 After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -36,33 +40,68 @@ After you're finished please remove all the comments and instructions!
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome page] <a name="awesome_page"></a>
+# 📖 [Awesome_project] <a name="awesome_project"></a>
 
-> In this project, you will set up a "Awesome page" web page.
+> Describe your project in 1 or 2 sentences.
 
-## 🛠 Built With <a name="HTML_CSS_JS"></a>
+**[Awesome books page]** is a book page where you can add and keep your favourite books.
+
+## 🛠 Built With <a name="built-with">HTML_CSS_JS</a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
-### Key Features <a></a>
+### Key Features <a name="key-features"></a>
 
-- **[Linters]**
-  > A linter is a tool that analyzes your source code to flag programming errors, bugs, stylistic errors, and suspicious constructs
-- **[.gitignore]**
-  > Specifies intentionally untracked files to ignore
+> Describe between 1-3 key features of the application.
+
+- **[book_titles]**
+- **[authors]**
+- **[add_remove_options]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,7 +109,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,9 +119,21 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Simply by cloning the repository folder in your local machine you can do any modification or explore this project. Good luck!
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
@@ -95,20 +148,86 @@ Example commands:
   git clone git@github.com:myaccount/my-project.git
 ```
 --->
+
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="author"></a>
+## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+> Mention all of the collaborators of this project.
 
-- GitHub: [@MarkoKermiciev](https://github.com/MarkoKermi)
-- Twitter: [@Marko Kermichiev](https://twitter.com/MarkoKerm)
-- LinkedIn: [Marko Kermiciev](https://www.linkedin.com/in/marko-kermichiev-78b1bb110/)
+👤 **Author1**
 
-👤 **Author 2**
+- GitHub: [MarkoKerm](https://github.com/MarkoKermi)
+- Twitter: [@markokerm](https://twitter.com/MarkoKerm)
+- LinkedIn: [markokermichiev](https://www.linkedin.com/in/marko-kermichiev-78b1bb110/)
 
--GitHub: [Daniel Matama](https://github.com/danielmatama)
--LinkedIn: [Daniel Matama](https://www.linkedin.com/in/daniel-matama-9190ba254/)
+👤 **Author2**
+
+- GitHub: [DanielMatama](https://github.com/danielmatama)
+- LinkedIn: [DanielMatama](https://www.linkedin.com/in/daniel-matama-9190ba254/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[book_list]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +245,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> This project means a lot to me, I feel like it's my starting point for something new in my life and I hope that I will recive a support from all of you.. Thx in advance
+> Write a message to encourage readers to support your project
 
 If you like this project...
 
@@ -142,6 +261,20 @@ I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -149,5 +282,7 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
