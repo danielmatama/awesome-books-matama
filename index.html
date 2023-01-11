@@ -8,31 +8,73 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="full">
-    <h1>Awesome books</h1>
-    <div id="list" class="list"></div>
-    <hr>
-    <div id="addNew">
-      <h3>Add a New book</h3>
-      <form name="book" id="form">
-        <input
-          type="text"
-          id="title"
-          name="title"
-          placeholder="Title"
-          required
-        /><br /><br />
-        <input
-          type="text"
-          id="author"
-          name="title"
-          placeholder="Author"
-          required
-        /><br /><br />
-        <button type="submit" id="addButton" class="btn">Add</button>
-      </form>
-    </div>
+    <header>
+      <div class="header">
+        <h1 class="full">Awesome books</h1>
+        <nav>
+          <ul class="nav-list">
+            <li>
+              <a href="#" id="navList" onclick="displaySection('list')">List</a>
+            </li>
+            <li>
+              <a href="#" id="navNew" onclick="displaySection('form')"
+                >Add New</a
+              >
+            </li>
+            <li>
+              <a href="#" id="navContact" onclick="displaySection('contact')"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
+      <p id="date" class="date"></p>
+    </header>
+    <main>
+      <div id="list" class="list">
+        <ul id="book-list"></ul>
+      </div>
+      <hr />
+      <div id="addNew">
+        <div>
+          <h3 class="bookTitle" id="bookTitle">Add a New book</h3>
+        </div>
+        <div class="form">
+          <form name="book" id="form">
+            <input
+              type="text"
+              id="title"
+              name="title"
+              placeholder="Title"
+              required
+            /><br /><br />
+            <input
+              type="text"
+              id="author"
+              name="title"
+              placeholder="Author"
+              required
+            /><br /><br />
+            <button type="submit" id="addButton" class="btn">Add</button>
+          </form>
+        </div>
+        <div id="contact" class="contact">
+          <p>
+            If you have any questions or you just want to say "Hello". You can
+            reach us to.
+          </p>
+          <ul>
+            <li>Our email: <a href="#">mail@mail.com</a></li>
+            <li>Our twitter: <a href="#">@awesomeBooks</a></li>
+            <li>Our github: <a href="#">@awesomeBooks</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <h3>Copyright &copy;</h3>
+    </footer>
 
     <script src="scripts.js"></script>
   </body>
