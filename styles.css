@@ -154,6 +154,8 @@ h2 {
   padding-bottom: 30px;
   padding-top: 30px;
   margin-top: 20px;
+  bottom: 0;
+  position: fixed;
 }
 
 .hide {
