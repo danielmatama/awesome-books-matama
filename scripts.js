@@ -74,12 +74,12 @@ addBtn.addEventListener('click', () => {
   displayBook();
 });
 
-// ....Page contents...//
+// Page contents
 const list = document.getElementById('list');
 const addNew = document.getElementById('addNew');
 const contactSection = document.getElementById('contact-section');
 
-//... Nav buttons...//
+ // Nav buttons.
 const listLink = document.getElementById('list-link');
 const addLink = document.getElementById('add-link');
 const contactLink = document.getElementById('contact-link');

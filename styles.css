@@ -9,6 +9,8 @@
 
 .links {
   color: white;
+  display: flex;
+  margin-left: 18px
 }
 
 .title {
@@ -20,11 +22,6 @@
   padding-right: 60px;
   padding-top: 10px;
   padding-bottom: 5px;
-}
-
-.links {
-  display: flex;
-  margin-left: 18px;
 }
 
 .ul-links {
@@ -80,6 +77,9 @@ a {
   width: 60px;
   height: 30px;
   border-radius: 5px;
+  background-color: grey;
+  color: white;
+  float: right;
 }
 
 #list {
@@ -102,12 +102,6 @@ a {
   justify-content: space-between;
   padding: 20px;
   padding-left: 20px;
-}
-
-.btn {
-  background-color: grey;
-  color: white;
-  float: right;
 }
 
 hr {
