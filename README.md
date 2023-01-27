@@ -64,7 +64,10 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**[Awesome books page]** is a book page where you can add and keep your favourite books.
+**[Awesome books page]** 
+  This project is a must have instrument for book lovers. It is a webpage that allows you to add your favourite books and authors and save them.
+  It also allows you to remove any books you may have already read or wish to replace.
+  It will accept all books and authors without fail.
 
 ## 🛠 Built With <a name="built-with">HTML_CSS_JS</a>
 
